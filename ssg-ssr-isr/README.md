@@ -14,13 +14,13 @@ pnpm dev
 bun dev
 ```
 
-## SSR - Server Side Rendering 
+### SSR - Server Side Rendering 
 This is default behaviour
 
-## SSG - Static Site Generation
+### SSG - Static Site Generation
 Any content which does not have network calls is a static page by default
 
-# ISG - Incremental Static Regeneration
+### ISG - Incremental Static Regeneration
 fetch in nextjs caches the response.
 
 However, there are exceptions, fetch requests are not cached when:
